@@ -8,7 +8,7 @@ Node.js (version 18 recommended)
 MongoDB
 Nodemon (installed globally)
 <h2>Installation Steps</h2>
-1. Clone the Wanderlust repository from GitHub:
+1. Clone the Zerodha Clone repository from GitHub:
 
 git clone https://github.com/PranavMehunkar/zerodha-clone.git
 
