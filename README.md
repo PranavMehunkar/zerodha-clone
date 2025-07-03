@@ -1,5 +1,5 @@
 <h1>Zerodha Clone Project Installation Guide</h1>
-This guide will walk you through the installation process for the Wanderlust web project. Follow the steps below to set up the project locally on your machine.
+This guide will walk you through the installation process for the Zerodha clone project. Follow the steps below to set up the project locally on your machine.
 
 <h2>Prerequisites</h2>
 Before you begin, make sure you have the following installed on your system:
