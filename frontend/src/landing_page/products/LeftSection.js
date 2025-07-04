@@ -19,8 +19,17 @@ function LeftSection({
           <h1>{productName}</h1>
           <p>{productDesription}</p>
           <div>
-            <a href={tryDemo}>Try Demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-            <a href={learnMore} style={{ marginLeft: "50px" }}>
+             {tryDemo && (
+              <button className="btn btn-primary me-3" onClick={tryDemo}>
+                Try Demo
+              </button>
+            )}
+            {learnMore && (
+              <a href={learnMore} className="btn btn-link">
+                Learn More{" "}
+                <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            )}
               Learn More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
           </div>
