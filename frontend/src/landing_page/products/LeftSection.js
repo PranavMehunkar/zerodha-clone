@@ -30,8 +30,6 @@ function LeftSection({
                 <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
               </a>
             )}
-              Learn More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-            </a>
           </div>
           <div className="mt-3">
             <a href={googlePlay}>
