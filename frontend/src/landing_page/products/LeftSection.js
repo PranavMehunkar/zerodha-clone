@@ -20,9 +20,9 @@ function LeftSection({
           <p>{productDesription}</p>
           <div>
              {tryDemo && (
-              <button className="btn btn-primary me-3" onClick={tryDemo}>
+              <a href={tryDemo} className="btn btn-link">
                 Try Demo
-              </button>
+              </a>
             )}
             {learnMore && (
               <a href={learnMore} className="btn btn-link">
